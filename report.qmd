@@ -1,0 +1,26 @@
+---
+title: "Simple Non-Interactive Report"
+author: "Michael Walshe"
+date: "`r Sys.Date()`"
+format:
+    html:
+        code-fold: true
+execute:
+    message: false
+    warning: false
+---
+
+This is a simple sample quarto report.
+
+
+```{r}
+library(dplyr)
+library(gt)
+library(readr)
+library(stringr)
+
+readr_example("chickens.csv") |> 
+    read_csv() |> 
+    mutate(motto = str_to_sentence(motto)) |> 
+    gt()
+```
