@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.4.2",
+    "Version": "4.2.3",
     "Repositories": [
       {
         "Name": "P3M",
@@ -37,7 +37,7 @@
       "Package": "Rcpp",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "methods",
         "utils"
@@ -48,7 +48,7 @@
       "Package": "V8",
       "Version": "6.0.5",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "Rcpp",
         "curl",
@@ -71,7 +71,7 @@
       "Package": "bigD",
       "Version": "0.3.1",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -146,7 +146,7 @@
       "Package": "cli",
       "Version": "3.6.5",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -167,7 +167,7 @@
       "Package": "commonmark",
       "Version": "2.0.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Hash": "8cba62334c1088d21689d353a7e87663"
     },
     "cpp11": {
@@ -196,7 +196,7 @@
       "Package": "curl",
       "Version": "6.4.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -240,7 +240,7 @@
       "Package": "evaluate",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -276,7 +276,7 @@
       "Package": "fs",
       "Version": "1.6.6",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
@@ -287,7 +287,7 @@
       "Package": "generics",
       "Version": "0.1.4",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
@@ -309,7 +309,7 @@
       "Package": "gt",
       "Version": "1.0.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "base64enc",
@@ -465,7 +465,7 @@
       "Package": "litedown",
       "Version": "0.7",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "commonmark",
@@ -488,7 +488,7 @@
       "Package": "markdown",
       "Version": "2.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "litedown",
@@ -522,7 +522,7 @@
       "Package": "pillar",
       "Version": "1.11.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "cli",
         "glue",
@@ -640,7 +640,7 @@
       "Package": "rlang",
       "Version": "1.1.6",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
@@ -674,7 +674,7 @@
       "Package": "sass",
       "Version": "0.4.10",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R6",
         "fs",
@@ -688,7 +688,7 @@
       "Package": "scales",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -737,7 +737,7 @@
       "Package": "tibble",
       "Version": "3.3.0",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
@@ -772,7 +772,7 @@
       "Package": "tinytex",
       "Version": "0.57",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "xfun"
       ],
@@ -793,7 +793,7 @@
       "Package": "utf8",
       "Version": "1.2.6",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
@@ -865,7 +865,7 @@
       "Package": "xfun",
       "Version": "0.52",
       "Source": "Repository",
-      "Repository": "P3M",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "grDevices",
